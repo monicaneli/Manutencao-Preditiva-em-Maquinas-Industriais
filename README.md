@@ -10,6 +10,8 @@ Sendo assim, este projeto representa o primeiro passo na utilização desses dad
 * Otimizar estratégias de manutenção
 * Reduzir impactos financeiros decorrentes de downtime
 
+O projeto está disponível para visualização, comentários e sugestões no meu perfil do Kaggle: [clique aqui](https://www.kaggle.com/code/monicaneli/industrial-machine-downtime-prediction)
+
 ---
 
 ## 🎯 Objetivos
@@ -32,7 +34,10 @@ Sendo assim, este projeto representa o primeiro passo na utilização desses dad
 * Indícios de possíveis falhas de sensor (valores negativos, extremos ou próximos de zero em Spindle Vibration, Tool Vibration e Torque).
 * Necessidade de padronização na coleta e investigação de lacunas.
 
-  
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/weekly.png" alt="Dados e evolução semanal" width="100%" style="display:block;"/>
+</div>
+
 ---
 
 ### 2️⃣ Frequência e Tendência de Downtime
@@ -65,6 +70,10 @@ Análise estatística e modelo identificaram como principais variáveis:
 * 🔺 Maior força de corte
 * 🔺 Temperatura do fluido e rotação do spindle (efeito moderado)
 
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/indicadores.png" alt="Fatores associados ao downtime" width="60%" style="display:block;"/>
+</div>
+
 ---
 
 ## Modelagem Preditiva
@@ -75,6 +84,10 @@ Foram testados dois modelos: Regressão Logística e XGBoost. Sendo que o modelo
 * F1-score: ~99%
 * PR-AUC: 0.991 (vs 0.899 na Regressão Logística)
 
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/avaliacao.png" alt="Avaliação e comparação dos modelos" width="100%" style="display:block;"/>
+</div>
+
 Importância das variáveis:
 
 * Hydraulic Pressure (~40%)
@@ -83,6 +96,9 @@ Importância das variáveis:
 
 Análise SHAP confirmou a relevância de Torque, Cutting, Coolant Pressure e Hydraulic Pressure.
 
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/shap.png" alt="SHapley Additive Explanations" width="60%" style="display:block;"/>
+</div>
 ---
 
 ## Simulação Financeira
@@ -118,6 +134,11 @@ Uma implementação real exigiria:
 * Consideração de redução parcial de severidade
 * Comparação com manutenção programada
 * Inclusão de custos completos de implementação
+
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/simulacao.png" alt="Widget para Simulação" width="58%" style="display:inline-block;"/>
+  	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/resultado.png" alt="Resultado da Simulação ao lado" width="39%" style="display:inline-block; margin-right:10px;"/>
+</div>
 
 ---
 
