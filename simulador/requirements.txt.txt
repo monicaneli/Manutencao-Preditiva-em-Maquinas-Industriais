@@ -1,0 +1,6 @@
+json
+pandas
+numpy
+ipywidgets
+voila
+matplotlib
