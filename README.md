@@ -99,7 +99,7 @@ Análise SHAP confirmou a relevância de Torque, Cutting, Coolant Pressure e Hyd
 <div align="center">
 	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/shap.png" alt="SHapley Additive Explanations" width="60%" style="display:block;"/>
 </div>
----
+
 
 ## Simulação Financeira
 
@@ -119,6 +119,10 @@ A simulação utilizou:
 
 A simulação indica que, sob as premissas adotadas e considerando um modelo com F1-score de 99%, a manutenção preditiva é financeiramente superior à estratégia reativa na maioria dos cenários testados.
 
+<div align="center">
+	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/2642d245911181bb1664ff1475035b5380c7a60e/images/simulador_pt.png" alt="Widget para Simulação" width="100%" style="display:block;"/>
+</div>
+
 ⚠️ Observação importante:
 O ROI obtido tende a ser elevado devido a:
 
@@ -135,10 +139,7 @@ Uma implementação real exigiria:
 * Comparação com manutenção programada
 * Inclusão de custos completos de implementação
 
-<div align="center">
-	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/simulacao.png" alt="Widget para Simulação" width="58%" style="display:inline-block;"/>
-  	<img src="https://github.com/monicaneli/Manutencao-Preditiva-em-Maquinas-Industriais/blob/f097cba3f533654e6a22e384f40ff2b80d921d18/images/resultado.png" alt="Resultado da Simulação ao lado" width="39%" style="display:inline-block; margin-right:10px;"/>
-</div>
+
 
 ---
 
